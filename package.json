@@ -1,0 +1,43 @@
+{
+  "name": "boilerplate-frontend-react",
+  "version": "1.0.0",
+  "description": "",
+  "source": "public/index.html",
+  "scripts": {
+    "start": "parcel",
+    "watch": "parcel watch",
+    "build": "parcel build",
+    "format": "prettier --write \"src/**/*.tsx\"",
+    "lint": "tslint -c tslint.json -p tsconfig.json --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrMavin/boilerplate-frontend-react.git"
+  },
+  "author": "Vincenzo (Mavin) Marragony",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrMavin/boilerplate-frontend-react/issues"
+  },
+  "homepage": "https://github.com/MrMavin/boilerplate-frontend-react#readme",
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.11",
+    "@types/react-router": "^5.1.18",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/sass": "^1.43.1",
+    "prettier": "^2.5.1",
+    "tslint": "^6.1.3"
+  },
+  "dependencies": {
+    "axios": "^0.25.0",
+    "parcel": "^2.2.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router": "^6.2.1",
+    "react-router-dom": "^6.2.1",
+    "sass": "^1.49.0"
+  }
+}
